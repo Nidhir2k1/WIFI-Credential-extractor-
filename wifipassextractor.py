@@ -1,9 +1,7 @@
 
-from http import client
-import imp
-from operator import ge
+
 import subprocess 
-from numpy import extract, rec
+
 
 # ///////////FOR SENDING msg TO TWILIO/////////////
 from twilio.rest import Client 
